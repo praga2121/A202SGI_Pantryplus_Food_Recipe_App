@@ -10,11 +10,11 @@
 
 **3) Project Scope**
 
-*1. User Registration*
-*2. Profile Dashboard*
-*3. Dish Information database*
-*4. Recipes Management and Cookbook*
-*5. Allow user to upload the recipe image*
-*6. A Cloud database*
-*7. Review module for the recipe*
-*8. Sharing good recipe and allow others to view the shared recipe*
+1. User Registration
+2. Profile Dashboard
+3. Dish Information database
+4. Recipes Management and Cookbook
+5. Allow user to upload the recipe image
+6. A Cloud database
+7. Review module for the recipe
+8. Sharing good recipe and allow others to view the shared recipe
