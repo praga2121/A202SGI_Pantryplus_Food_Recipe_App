@@ -94,30 +94,19 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         }
 
         progressBar.setVisibility(View.VISIBLE);
+
         mAuth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-
                         if (task.isSuccessful()){
                             User user = new User(fullName,email);
-
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                    .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<Void> task) {
-                                            if(task.isSuccessful()){
-                                                Toast.makeText(RegisterUser.this, "User Registered Successfully", Toast.LENGTH_LONG).show();
-                                                progressBar.setVisibility(View.GONE);
-                                            }else{
-                                                Toast.makeText(RegisterUser.this, "User Registration Failed", Toast.LENGTH_LONG).show();
-                                                progressBar.setVisibility(View.GONE);
-                                            }
-
-                                        }
-                                    });
-                        }else {
+                                    .setValue(user);
+                            Toast.makeText(RegisterUser.this, "User Registered Successfully", Toast.LENGTH_LONG).show();
+                            progressBar.setVisibility(View.GONE);
+                        }else{
                             Toast.makeText(RegisterUser.this, "User Registration Failed", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
                         }
