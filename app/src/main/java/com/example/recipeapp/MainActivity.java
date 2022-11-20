@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private TextView register;
+    private TextView register,forgotPassword;
     private EditText editTextEmail, editTextPassword;
     private Button signIn;
 
@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mAuth = FirebaseAuth.getInstance();
 
+        forgotPassword = (TextView) findViewById(R.id.forgotPassword);
+        forgotPassword.setOnClickListener(this);
+
     }
 
     @Override
@@ -55,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.signIn:
                 userLogin();
+                break;
+            case R.id.forgotPassword:
+                startActivity(new Intent(this,ForgotPassword.class));
                 break;
         }
     }
@@ -94,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (task.isSuccessful()){
                     //redirect to profile
                     startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+                    progressBar.setVisibility(View.GONE);
                 }else{
                     Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_LONG).show();
                 }
