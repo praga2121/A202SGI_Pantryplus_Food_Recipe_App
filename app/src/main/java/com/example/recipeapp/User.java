@@ -3,7 +3,6 @@ package com.example.recipeapp;
 public class User {
 
     public String fullName,email;
-
     public User (){
 
     }

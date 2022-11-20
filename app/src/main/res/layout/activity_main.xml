@@ -68,6 +68,7 @@
         android:layout_height="70dp"
         android:backgroundTint="#0ED689"
         android:text="Login"
+        android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"

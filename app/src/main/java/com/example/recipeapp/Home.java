@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarMenu;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity {
@@ -24,5 +26,7 @@ public class Home extends AppCompatActivity {
                 startActivity(new Intent(Home.this,ProfileActivity.class));
             }
         });
+
     }
+
 }
