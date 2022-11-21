@@ -7,13 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarMenu;
-import com.google.firebase.auth.FirebaseAuth;
-
 public class Home extends AppCompatActivity {
 
-    private Button profile;
+    private Button profile,feedback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +20,15 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Home.this,ProfileActivity.class));
+            }
+        });
+
+        feedback = (Button) findViewById(R.id.feedback);
+        feedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // do something when feedback clicked
+                startActivity(new Intent(Home.this,FeedbackActivity.class));
             }
         });
 
