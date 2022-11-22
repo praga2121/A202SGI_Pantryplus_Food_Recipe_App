@@ -7,15 +7,18 @@
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_feedback.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_feedback_view.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_new_home.xml" value="0.29259259259259257" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/activity_register_user.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/bottomnavmenu.xml" value="0.365625" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/fragment_profile.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/list_random_recipe.xml" value="0.29259259259259257" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/layout/recipes.xml" value="0.365625" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/menu/bottomnavmenu.xml" value="0.2553191489361702" />
         <entry key="..\:/Users/Daniel/AndroidStudioProjects/RecipeApp/app/src/main/res/menu/menu.xml" value="0.365625" />
       </map>
