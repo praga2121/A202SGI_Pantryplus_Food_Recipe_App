@@ -30,7 +30,8 @@ public class Home extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 if (id == R.id.navigation_home) {
-                   setContentView(R.layout.activity_home);
+                   Intent navHome = new Intent(Home.this,Home.class);
+                   Home.this.startActivity(navHome);
                 }
                 if (id == R.id.navigation_profile) {
                     Intent navProfile = new Intent(Home.this, ProfileActivity.class);

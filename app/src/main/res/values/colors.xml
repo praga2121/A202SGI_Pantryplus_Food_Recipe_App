@@ -8,4 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FF5722</color>
+
+    <color name="pink">#A57A86</color>
+    <color name="blue1">#D1CFE2</color>
+    <color name="blue2">#9CADCE</color>
+    <color name="blue3">#7EC4CF</color>
+    <color name="blue4">#52B2CF</color>
+    <color name="grey">#505050</color>
+    <color name="violet">#67597A</color>
+    <color name="darkpurple">#544E61</color>
+    <color name="offwhite">#FFFAE3</color>
 </resources>

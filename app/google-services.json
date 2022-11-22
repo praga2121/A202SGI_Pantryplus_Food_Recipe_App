@@ -8,12 +8,49 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:274143892448:android:4a878b33396d753d15d185",
+        "android_client_info": {
+          "package_name": "com.example.feedback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274143892448-62q446i5t1o8ofks4jor8sgeoq5f9cn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRw1_ttAPEHCJdek8rwXXoEfDqTu9ylBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274143892448-62q446i5t1o8ofks4jor8sgeoq5f9cn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:274143892448:android:5c8cbe01adc54e6915d185",
         "android_client_info": {
           "package_name": "com.example.recipeapp"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "274143892448-rcumop0h45rvb3kjbh99cnh9bvj5nm0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipeapp",
+            "certificate_hash": "d1c8eefef6f2412aa5119d67630d3f4f0fa095c3"
+          }
+        },
         {
           "client_id": "274143892448-62q446i5t1o8ofks4jor8sgeoq5f9cn0.apps.googleusercontent.com",
           "client_type": 3

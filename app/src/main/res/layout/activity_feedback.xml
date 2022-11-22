@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue2"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
@@ -16,6 +17,7 @@
         android:hint="Enter Name"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:textColor="@color/grey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -43,7 +45,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idEdtContent"
-        android:layout_margin="10dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/blue2"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
         android:text="Send Feedback"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/idEdtContent"
