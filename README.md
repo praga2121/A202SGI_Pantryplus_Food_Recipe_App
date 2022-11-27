@@ -10,13 +10,11 @@
 
 **3) Project Scope**
 
-1. User Registration
-2. Profile Dashboard
-3. Dish Information database
-4. Recipes Management and Cookbook
-5. Allow user to upload the recipe image
-6. A Cloud database
-7. Review module for the recipe
-8. Sharing recipe option
-9. In-app Timer
-10. User Feedback 
+- Login & register (Google And Email Address)
+- User Profile dashboard (Reset password and verify Account) 
+- Item Search function.
+- Recipe Display and Description.
+- Add Recipe.
+- Adding and Displaying recipe to Favorites. 
+- Update and Delete Recipe item.
+- Firebase cloud storage for recipe DB.
